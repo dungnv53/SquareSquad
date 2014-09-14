@@ -68,10 +68,12 @@ public class DrawView  extends View {
         drawSquare(30+112*multi-sq24.getWidth(), 30+sq27.getWidth()+sq19.getWidth(), canvas, sq24);
 
         drawSquare(30+sq29.getWidth()+sq25.getWidth(), 30+50*multi, canvas, sq9);
-        drawSquare(30+63*multi, 30+59*multi, canvas, sq7);
-        drawSquare(30+70*multi, 30+70*multi, canvas, sq18);
-        drawSquare(30+82*multi, 30+52*multi, canvas, sq6);
-        drawSquare(30+82*multi, 30+46*multi, canvas, sq11);
+        drawSquare(30+63*multi, 30+52*multi, canvas, sq7);
+        drawSquare(30+70*multi, 30+52*multi, canvas, sq18);
+        drawSquare(30+82*multi, 30+46*multi, canvas, sq6);
+        drawSquare(30+54*multi, 30+59*multi, canvas, sq16);
+
+        drawSquare(30+82*multi, 30+35*multi, canvas, sq11);
 
 //        paint.setStrokeWidth(0);
 //        paint.setColor(Color.CYAN);
