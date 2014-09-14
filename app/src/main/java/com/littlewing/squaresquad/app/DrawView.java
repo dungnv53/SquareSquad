@@ -33,6 +33,7 @@ public class DrawView  extends View {
     Square sq9 = new Square(9 *multi);
     Square sq7 = new Square(7 *multi);
     Square sq2 = new Square(2 *multi);
+    Square sq6 = new Square(6 *multi);
     Square sq18 = new Square(18 *multi);
     Square sq16 = new Square(16 *multi);
     Square sq24 = new Square(24 *multi);
@@ -65,14 +66,20 @@ public class DrawView  extends View {
         drawSquare(30+112*multi-sq42.getWidth(), 30+112*multi-sq42.getWidth(), canvas, sq42);
 
         drawSquare(30+112*multi-sq24.getWidth(), 30+sq27.getWidth()+sq19.getWidth(), canvas, sq24);
-//        drawSquare(30+112*multi-sq19.getWidth(), 30+sq27.getWidth(), canvas, sq19);
-//        drawSquare(30+112*multi-sq19.getWidth(), 30+sq27.getWidth(), canvas, sq19);
+
+        drawSquare(30+sq29.getWidth()+sq25.getWidth(), 30+50*multi, canvas, sq9);
+        drawSquare(30+63*multi, 30+59*multi, canvas, sq7);
+        drawSquare(30+70*multi, 30+70*multi, canvas, sq18);
+        drawSquare(30+82*multi, 30+52*multi, canvas, sq6);
+        drawSquare(30+82*multi, 30+46*multi, canvas, sq11);
 
 //        paint.setStrokeWidth(0);
 //        paint.setColor(Color.CYAN);
 //        canvas.drawRect(33, 60, 77, 77, paint );
 //        paint.setColor(Color.YELLOW);
 //        canvas.drawRect(33, 33, 77, 60, paint );
+        paint.setColor(Color.RED);
+        canvas.drawText(sq4.getWidth()/multi+"", 30 + sq29.getWidth() + sq2.getWidth()/2 *7/10, 30 + 112*multi - sq33.getWidth() +sq4.getWidth()/2*5/4, paint);
 
     }
 
